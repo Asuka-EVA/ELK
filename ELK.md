@@ -890,7 +890,7 @@ output {           #输出插件，将事件发送到特定目标
 
 启动：
 [root@es-2-zk-log conf.d]# cd /usr/local/logstash-6.5.4/
-[root@es-2-zk-log logstash-6.5.4]# 
+[root@es-2-zk-log logstash-6.5.4]# nohup bin/logstash -f etc/conf.d/  --config.reload.automatic &
 ```
 
 
